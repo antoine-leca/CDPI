@@ -1,0 +1,5 @@
+CREATE TABLE my_first_table (
+    -> id INT AUTO_INCREMENT PRIMARY KEY,
+    -> libelle VARCHAR(100) NOT NULL,
+    -> date_ajout DATETIME DEFAULT CURRENT_TIMESTAMP
+-> );

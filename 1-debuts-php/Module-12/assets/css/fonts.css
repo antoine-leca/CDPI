@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Sora-reg;
+  src: url('../fonts/Sora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora-med;
+  src: url('../fonts/Sora-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora-semibold;
+  src: url('../fonts/Sora-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora-bold;
+  src: url('../fonts/Sora-Bold.ttf') format('truetype');
+}

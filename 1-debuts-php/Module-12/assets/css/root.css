@@ -1,0 +1,30 @@
+@import url('./fonts.css');
+
+:root {
+    --main-reg: Sora-reg;
+    --main-med: Sora-med;
+    --title-semibold: Sora-semibold;
+    --title-bold: Sora-bold;
+
+    --bg-main: #0E3530;
+}
+
+.main-font-r {
+    font-family: var(--main-reg);
+}
+
+.main-font-m {
+    font-family: var(--main-med);
+}
+
+.title-font-sm {
+    font-family: var(--title-semibold);
+}
+
+.title-font-b {
+    font-family: var(--title-bold);
+}
+
+.bg-main {
+    background-color: var(--bg-main);
+}
