@@ -19,6 +19,8 @@
         $stmt->execute([$email]);
         if ($stmt->fetchColumn() > 0) {
             $error = "<p style='color: red;'>Cet email est déjà utilisé.</p>";
+        } elseif (strlen($password) < 8) {
+            $error = "<p style='color: red;'>Le mot de passe doit contenir au moins 8 caractères.</p>";
         } elseif ($password !== $passwordC) {
             $error = "<p style='color: red;'>Les mots de passe ne correspondent pas.</p>";
         } else {
